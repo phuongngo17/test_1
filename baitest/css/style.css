@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    width: 860px;
+    /* height: 300px; */
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 50px;
+    background-color: rgb(231, 147, 44);
+    /* width: 20%; */
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.box2 {
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    width: 640px;
+    gap: 20px;
+  
+}
+.box2 img{
+    width: 320px;
+    height: 180px;
+}
+.box2 div{
+    padding: 10px;
+}
